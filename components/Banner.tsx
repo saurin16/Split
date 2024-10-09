@@ -4,8 +4,8 @@ import Link from 'next/link';
 
 export default function Banner() {
   return (
-    <div className="relative overflow-hidden bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500">
-      <div className="absolute inset-0 bg-grid-white/[0.05] bg-grid-16 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.5))]" />
+    <div className="relative overflow-hidden bg-gradient-to-br from-blue-500 via-purple-600 to-pink-500">
+      <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-30" />
       <div className="relative flex flex-col items-center justify-center py-24 px-6 sm:py-32 sm:px-12 text-center">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-6 text-white tracking-tight">
           <span className="block">Split expenses with friends</span>
