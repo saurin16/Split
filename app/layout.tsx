@@ -1,3 +1,4 @@
+
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -22,9 +23,7 @@ export default function RootLayout({
         <body className={inter.className}>
           <Navigation />
           <main>{children}</main>
-          <footer className="bg-gray-100 py-4 text-center text-gray-600">
-            Created by Saurin Patel
-          </footer>
+          
         </body>
       </html>
     </ClerkProvider>
