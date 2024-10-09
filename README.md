@@ -1,6 +1,5 @@
 # Split - Easily split expenses with friends and groups (A Splitwise Clone)
 
-Built with Next.js 14 App Router, Clerk for Authentication, React, NeonDb for database management, ShadCN UI library for components, TypeScript, and TailwindCSS. Utilizing Cursor AI, Claude AI and Galileo AI.
 
 ![Project Image](SS-main.png)
 
@@ -63,9 +62,6 @@ To get started with this project, follow these steps:
    ```
 3. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-## Acknowledgements
-
-- [Clerk](https://go.clerk.com/5qOWrFA) for making this project possible
 
 ## License
 
